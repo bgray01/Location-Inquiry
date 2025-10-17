@@ -10,9 +10,9 @@ namespace Location_Inquiry
     {
         private List<Location> locations = new List<Location>()
         {
-            new Location { Code = "1AZ001A01", Name = "Warehouse 1", Address = "123 Main St", Status = "Active", Inventory = 120 },
-            new Location { Code = "1EN007K02", Name = "Warehouse 2", Address = "456 Oak St", Status = "Inactive", Inventory = 0 },
-            new Location { Code = "1BA029B03", Name = "Warehouse 3", Address = "789 Pine St", Status = "Active", Inventory = 60 }
+            new Location { Loc = "1AZ001A01", HandlingType = "MP", LPN = "0000007852", SKU = "58006152250006-12", Quantity = 20 },
+            new Location { Loc = "1EN007K02", HandlingType = "URI", LPN = "550000001751", SKU = "000000062544", Quantity = 6 },
+            new Location { Loc = "1BA029B03", HandlingType = "MP", LPN = "78552", SKU = "580002546600015XL", Quantity = 92 }
         };
 
         private TextBox txtCode;
